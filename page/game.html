@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>游戏详情页</title>
+
+		<style type="text/css">
+			body{
+				overflow-x: hidden; overflow-y: hidden
+
+			}
+			#id1 {
+				width: 1200px;
+				height: 540px;
+				/*opacity: 0.9;*/
+				background-color: #2b3942;
+				padding-bottom: 35px;
+				padding-top: 1px;
+				background-image: url(img/背景.png);
+			}
+			
+			#id2 {
+				margin: 10px;
+				height: 500px;
+			}
+			
+			#movie1 {
+				margin-right: 10px;
+			}
+			
+			#text1 {
+				width: 900px;
+				background-color: dimgrey;
+			}
+			
+			li {
+				list-style: none;
+			}
+			
+			* {
+				padding: 0;
+				margin: 0;
+			}
+			
+			.tab-list {
+				text-align: center;
+				line-height: 40px;
+				height: 40px;
+				border-bottom: none;
+				background-color: #0e3151;
+			}
+			
+			.tab-list li {
+				float: left;
+				width: 100px;
+				cursor: pointer;
+				color: #324963;
+			}
+			
+			.tab-content li {
+				width: 654px;
+				height: 460px;
+				margin: 0px;
+				background-color: #092743;
+			}
+			
+			#publish {
+				float: right;
+			}
+			
+			img.head-jpg {
+				width: 60px;
+				height: 60px;
+				border-radius: 50%;
+				overflow: hidden;
+				margin: 30px;
+				margin-top: 0px;
+			}
+			
+			img.icon {
+				width: 17px;
+				height: 17px;
+				border: 0 black;
+				color: #1A364E;
+			}
+			
+			p {
+				/*text-indent: 2em;*/
+				color: ghostwhite;
+				margin-right: 10px;
+			}
+			
+			#name1 {
+				text-align: center;
+				margin-left: 9px;
+				margin-top: -28px;
+			}
+			
+			hr {
+				margin: 15px 20px;
+				color: #112f4b;
+			}
+			
+			a.remark_publish {
+				    text-decoration: none;
+				    margin: 10px 10px 0px;
+				    float: right;
+				    color: #2272ac;
+			}
+			
+			span {
+				color: #2272ac;
+			}
+			
+			#movie1 {
+				margin-top: 100px;
+			}
+			
+			#nav {
+				width: 590px;
+				height: 300px;
+				border: 1px solid #1a1f2d;
+				position: fixed;
+				left: 20%;
+				top: 20%;
+				z-index: 999;
+				background-color: #1A1F2D;
+				padding-top: 3px;
+				display: none;
+			}
+			
+			#remark {
+				background-color: #1A1F2D;
+				width: 550px;
+				height: 150px;
+				margin: 40px 20px;
+				color: white;
+				background-color: black;
+			}
+			
+			button {
+				width: 60px;
+				height: 30px;
+				background-color: #1A1F2D;
+				color: white;
+			}
+			#lol{
+				width: 497px;
+			}
+		</style>
+
+	</head>
+
+	<body>
+		<div id="id1">
+			<div id="id2">
+				<p id="gameid" style="margin: 20px 20px 0px;color: #495968;">英雄联盟专区>>></p>
+				<div id="id3">
+					<table cellspacing="15">
+						<tr>
+							<td id="text1">
+								<div class="tab">
+									<ul class="tab-list">
+										<li>同城玩家</li>
+										<li>全网玩家</li>
+										<li>我的话题</li>
+									</ul>
+
+									<ul class="tab-content">
+
+										<li>
+
+											<table>
+												<tr>
+													<a class="remark_publish" href="##">+发表话题</a><br />
+												</tr>
+												<tr>
+
+													<td>
+														<img class="head-jpg" src="img/t1.jpg" /><br />
+														<p id="name1">菊花残</p>
+													</td><br />
+													<td>
+														<p>生命，不过只是一场骗局，从你开始呼吸的那一刻起，你就已经在慢慢死亡了。</p><br />
+														<img class="icon" src="img/zan.jpg" />
+														<span>(976)</span>&nbsp;&nbsp;
+
+														<img class="icon" src="img/cai.jpg" />
+														<span>(9856)</span>&nbsp;&nbsp;
+														<span>回复（1340）</span>
+														<span>08-17 12:22 来自33号机</span>
+													</td>
+												</tr>
+
+											</table>
+											<hr />
+											<table>
+												<tr>
+													<td>
+														<img class="head-jpg" src="img/t9.jpg" /><br />
+														<p id="name1">阿木木</p>
+													</td>
+													<td>
+														<p>我醒来了，但是我什么都不记得，我很害怕，我包裹住我的身体，然后独自在黑暗中哭泣。</p><br />
+														<img class="icon" src="img/zan.jpg" />
+														<span>(976)</span>&nbsp;&nbsp;
+
+														<img class="icon" src="img/cai.jpg" />
+														<span>(9856)</span>&nbsp;&nbsp;
+														<span>回复（1340）</span>
+														<span>08-17 12:22 来自33号机</span>
+													</td>
+												</tr>
+
+											</table>
+											<hr />
+											<table>
+												<tr>
+													<td>
+														<img class="head-jpg" src="img/t8.jpg" /><br />
+														<p id="name1">提莫</p>
+													</td>
+													<td>
+														<p>我一路种下了蘑菇、只为让你知道回家的路。</p><br />
+														<img class="icon" src="img/zan.jpg" />
+														<span>(976)</span>&nbsp;&nbsp;
+
+														<img class="icon" src="img/cai.jpg" />
+														<span>(9856)</span>&nbsp;&nbsp;
+														<span>回复（1340）</span>
+														<span>08-17 12:22 来自33号机</span>
+													</td>
+												</tr>
+											</table>
+											<hr />
+										</li>
+										<li style="display: none;">
+
+											<table>
+												<tr>
+													<a class="remark_publish" href="##">+发表话题</a><br />
+												</tr>
+												<tr>
+
+													<td>
+														<img class="head-jpg" src="img/t11.jpg" /><br />
+														<p id="name1">剑圣</p>
+													</td><br />
+													<td>
+														<p>我一直急速前行 穿梭于人人之间 试图叫应接不暇的风景让我褪去对你的思念。</p><br />
+														<img class="icon" src="img/zan.jpg" />
+														<span>(976)</span>&nbsp;&nbsp;
+
+														<img class="icon" src="img/cai.jpg" />
+														<span>(9856)</span>&nbsp;&nbsp;
+														<span>回复（1340）</span>
+														<span>08-17 12:22 来自33号机</span>
+													</td>
+												</tr>
+
+											</table>
+											<hr />
+											<table>
+												<tr>
+													<td>
+														<img class="head-jpg" src="img/t5.jpg" /><br />
+														<p id="name1">瞎子</p>
+													</td>
+													<td>
+														<p>我蒙上自己的双眼，只想记住最后看你的那一眼。 我刺瞎自己的双眼 只为记住那逝去的红颜。。</p><br />
+														<img class="icon" src="img/zan.jpg" />
+														<span>(976)</span>&nbsp;&nbsp;
+
+														<img class="icon" src="img/cai.jpg" />
+														<span>(9856)</span>&nbsp;&nbsp;
+														<span>回复（1340）</span>
+														<span>08-17 12:22 来自33号机</span>
+													</td>
+												</tr>
+
+											</table>
+											<hr />
+											<table>
+												<tr>
+													<td>
+														<img class="head-jpg" src="img/t4.jpg" /><br />
+														<p id="name1">猴子</p>
+													</td>
+													<td>
+														<p>我愚蠢的以为，头上的金箍圈可以圈住你所有的爱，可惜我手中的金箍棒改变不了那个开始，也决定不了这个结局，根本没有齐天大圣，我只是一只猴子</p><br />
+														<img class="icon" src="img/zan.jpg" />
+														<span>(976)</span>&nbsp;&nbsp;
+
+														<img class="icon" src="img/cai.jpg" />
+														<span>(9856)</span>&nbsp;&nbsp;
+														<span>回复（1340）</span>
+														<span>08-17 12:22 来自33号机</span>
+													</td>
+												</tr>
+											</table>
+											<hr />
+										</li>
+										<li style="display: none;">
+
+											<table>
+												<tr>
+													<a class="remark_publish" href="##">+发表话题</a><br />
+												</tr>
+												<tr>
+
+													<td>
+														<img class="head-jpg" src="img/t4.jpg" /><br />
+														<p id="name1">寡妇</p>
+													</td><br />
+													<td>
+														<p>物是人非，可我依旧穿着嫁衣，在黑夜中寻找你的身影</p><br />
+														<img class="icon" src="img/zan.jpg" />
+														<span>(976)</span>&nbsp;&nbsp;
+
+														<img class="icon" src="img/cai.jpg" />
+														<span>(9856)</span>&nbsp;&nbsp;
+														<span>回复（1340）</span>
+														<span>08-17 12:22 来自33号机</span>
+													</td>
+												</tr>
+
+											</table>
+											<hr />
+											<table>
+												<tr>
+													<td>
+														<img class="head-jpg" src="img/t3.jpg" /><br />
+														<p id="name1">大嘴</p>
+													</td>
+													<td>
+														<p>我也希望变成蝴蝶的那一天,不再灰色，不再痛苦，不会再让我丑陋的外表吓到美丽的你。</p><br />
+														<img class="icon" src="img/zan.jpg" />
+														<span>(976)</span>&nbsp;&nbsp;
+
+														<img class="icon" src="img/cai.jpg" />
+														<span>(9856)</span>&nbsp;&nbsp;
+														<span>回复（1340）</span>
+														<span>08-17 12:22 来自33号机</span>
+													</td>
+												</tr>
+
+											</table>
+											<hr />
+											<table>
+												<tr>
+													<td>
+														<img class="head-jpg" src="img/t7.jpg" /><br />
+														<p id="name1">刀妹</p>
+													</td>
+													<td>
+														<p>从我手中脱离的刀刃一直在飞舞，我不断的变强，只是为了守护我们的家园，我等候你的归来</p><br />
+														<img class="icon" src="img/zan.jpg" />
+														<span>(976)</span>&nbsp;&nbsp;
+
+														<img class="icon" src="img/cai.jpg" />
+														<span>(9856)</span>&nbsp;&nbsp;
+														<span>回复（1340）</span>
+														<span>08-17 12:22 来自33号机</span>
+													</td>
+												</tr>
+											</table>
+											<hr />
+										</li>
+									</ul>
+								</div>
+							</td>
+							<td id="movie1">
+								<!--<iframe height=280 width=480 src='http://player.youku.com/embed/XMTcyMjc1MjEyOA==' frameborder=0 'allowfullscreen'></iframe>
+								<iframe height=110 width=160 src='http://player.youku.com/embed/XNzM4NjM2NzU2' frameborder=0 'allowfullscreen'></iframe>
+								<iframe height=110 width=160 src='http://player.youku.com/embed/XMTUwNTczNDczMg==' frameborder=0 'allowfullscreen'></iframe>
+								<iframe height=110 width=140 src='http://player.youku.com/embed/XNTU2MTgxMjU2' frameborder=0 'allowfullscreen'></iframe>
+								-->
+								<img id="lol" src="img/lol.jpg" />
+								<div style="background-color: #092743; padding: 10px;">
+									<p class="gameScript">
+										《League of Legends》是美国Roit Games最新开发，由腾讯代理的3D即时战略网游, (DotA主要开发者，DotA中的邪恶镰刀以其名字命名。现任Lol游戏英雄背景、技能、角色概念设计。)
+									</p>
+								</div>
+							</td>
+						</tr>
+					</table>
+				</div>
+
+				<div id="nav">
+					<p style="margin-left: 30px;margin-top: 10px;">发表话题</p>
+					<img class="nav_back" src="img/x.jpg" style="width: 20px;height: 20px;border-radius: 50%;float: right;margin: -25px 10px;" />
+					<textarea id="remark" name="">
+				</textarea>
+					<p style="margin-top: -40px;margin-left: 30px;font-size: smaller;">您的评价对游戏很重要，无意义的评论可能会被删除</p>
+					<table>
+						<tr>
+							<td>
+								<p style="color: red;font-size: 8px;margin-left: 30px;">请文明发言，轻者封号，重者后顾自负</p>
+							</td>
+							<td>
+								<button style="margin-left: 150px;">确定</button>&nbsp;
+								<button class="button_back">取消</button>
+							</td>
+						</tr>
+					</table>
+
+				</div>
+			</div>
+		</div>
+	</body>
+	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript">
+		var eItemList = document.querySelectorAll(".tab-list li");
+		var eContentList = document.querySelectorAll(".tab-content li");
+		//给元素编号
+		for(var i = 0; i < eItemList.length; i++) {
+			eItemList[i].index = i; //index是自定义属性，用来保存编号                 
+			eItemList[i].onmouseover = function() {
+				for(var i = 0; i < eContentList.length; i++) {
+					eContentList[i].style.display = "none"; //先将内容全部隐藏                  
+				}
+				eContentList[this.index].style.display = "block"; //当鼠标触发时再显示对应的内容    
+				for(var i = 0; i < eItemList.length; i++) {
+					eItemList[i].style.background = "none"; //将背景色设置为无                 
+				}
+				eItemList[this.index].style.background = "#092743";
+			};
+		}
+		$(".button_back").click(function() {
+			$("#nav").hide();
+		});
+		$(".nav_back").click(function() {
+			$("#nav").hide();
+		});
+		$(".remark_publish").click(function() {
+			$("#nav").show();
+		});
+	</script>
+
+</html>

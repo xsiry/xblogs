@@ -1,0 +1,1 @@
+define({"user_id":"1","relname":"root","mobile":"12313","email":"root@admin.com","qq":"233445566778","rolename":"超级管理员"})
